@@ -1,0 +1,21 @@
+1. Write a method called printReverse that accepts a string as its parameter and prints the characters in opposite
+order. For example, a call of printReverse("hello there!") should print "!ereht olleh" . If the empty
+string is passed, the method should produce no output.
+
+2. Write a method called inputBirthday that accepts a Scanner for the console as a parameter and prompts the user
+to enter a month, day, and year of birth, then prints the birthdate in a suitable format. Here is an example dialogue
+with the user:
+On what day of the month were you born? 8
+What is the name of the month in which you were born? May
+During what year were you born? 1981
+You were born on May 8, 1981. You’re mighty old!
+
+3. Write a method called triangleArea that accepts the three side lengths of a triangle as parameters and returns the
+area of a triangle with those side lengths. For example, the call triangleArea(8, 5.2, 7.1) should return
+18.151176098258745 . To compute the area, use Heron’s formula, which states that the area of a triangle whose
+three sides have lengths a, b, and c, is the following. The formula is based on the computed value s, a length equal to
+half the perimeter of the triangle:
+area = 2s(s - a)(s - b)(s - c)
+a + b + c
+s =
+2
